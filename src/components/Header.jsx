@@ -5,7 +5,7 @@ const Header = () => {
 
   return (
     <div>
-      <p>Count:{count}</p>
+      <p>Count: {count}</p>
       <button onClick={() => setCount(count + 1)}>add item to Cart</button>
       <button onClick={() => setCount(count - 1)}>remove item from Cart</button>
       <div>
